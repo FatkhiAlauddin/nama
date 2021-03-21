@@ -1,3 +1,4 @@
+/* Activity Jual Baju */
 .text3{
     font-size: 250px;
     color: black;
@@ -29,4 +30,60 @@
     padding: 100px;
     font-style: normal;
     font-family: 'Times New Roman', Times, serif;
+}
+
+/* Activity Biodata */
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.selection-atas{
+    text-align: center;
+    color: rgb(37, 18, 14);
+}
+
+table,th,td{
+    border: 1px solid rgb(8, 1, 1);
+}
+
+.selection-tengah{
+    border: 7px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+/* HP */
+@media(max-width: 768px){
+    .selection-atas{
+        color:rgb(23, 37, 161)
+    }
+
+
+    .selection-border{
+        display: flex;
+        justify-content: start;
+    }
+}
+/* Tablet */
+@media(min-width: 768px){
+    .selection-atas{
+        color:rgb(199, 63, 63)
+    }
+
+
+    .selection-border{
+        display: flex;
+        justify-content: start;
+    }
+}
+/*Pc Atau laptop*/
+@media(min-width: 992px){
+    .selection-atas{
+        color:rgb(72, 224, 11)
+    }
+
+
+    .selection-border{
+        display: flex;
+        justify-content: start;
+    }
 }
